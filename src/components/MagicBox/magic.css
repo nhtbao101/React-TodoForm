@@ -1,0 +1,9 @@
+.magic-box {
+  height: 200px;
+  width: 200px;
+  border: 1px solid fuchsia;
+  display: flex;
+  margin: auto;
+
+  transition: width 2s;
+}

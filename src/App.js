@@ -7,6 +7,8 @@ import TodoForm from "./components/TodoForm";
 import TodoList from "./components/Todolist/index";
 import SearchItem from "./components/SearchItem";
 import Clock from "./components/Clock";
+import BetterClock from "./components/BetterClock";
+import MagicBox from "./components/MagicBox";
 
 function App() {
   const [todoList, setTodoList] = useState([
@@ -82,7 +84,9 @@ function App() {
   return (
     <div className="App">
       <h1>Hello i'm waiting you from 6:AM</h1>
-      <Clock />
+      {/* <Clock />
+      <BetterClock /> */}
+      <MagicBox />
       {/* <SearchItem onSubmit={handleSearchSubmit} />
       <PostList posts={postList} />
       <PageChange pagination={pagination} onPageChange={handlePageChange} /> */}

@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import PropTypes from "prop-types";
 import useClock from "../../hook/useClock";
+import "./BetterClock.css";
 
 Clock.propTypes = {};
 
@@ -13,7 +14,7 @@ function formatDate(date) {
 
 function Clock() {
   const { time } = useClock();
-  return <div style={{ fontSize: "30px" }}>{time}</div>;
+  return <div className="better-clock">{time}</div>;
 }
 
 export default Clock;
